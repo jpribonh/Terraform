@@ -1,8 +1,7 @@
 # Configure the AWS Provider
 provider "aws" {
   region = "us-west-2"
-  access_key = "AKIA3DJCSVI66E6DJRMJ"
-  secret_key = "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"
+
 }
 
 resource "aws_instance" "webapp_alias_in_terraform" {
